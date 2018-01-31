@@ -1,0 +1,225 @@
+*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  font-family:arial;
+}
+
+body{
+  background:url("../img/fondo.jpg");
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    overflow: auto;
+    background-color: #800000;
+}
+li {
+    float: left;
+    margin-top: auto;
+}
+
+.lirigth {
+  float: right;
+}
+
+h1{
+  color:white;
+  text-align:center;
+  font-family:icon;
+}
+
+h2{
+  color: white;
+  text-align:left;
+  font-family:icon;
+  font-size: 30px;
+  position: absolute;
+}
+
+.login-form{
+  width:300px;
+  padding:40px 30px;
+  background:#800000;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  border-radius:4px;
+  border: 1px  solid #000000;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  margin:50px auto;
+}
+
+.mod-form{
+  width:400px;
+  padding:30px 30px;
+  background:#800000;
+  border-radius:4px;
+  border: 1px  solid #000000;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  margin:25px auto;
+}
+
+.contact-form{
+  width:100%;
+  padding:40px 30px;
+  background:#800000;
+  background-repeat: no-repeat;
+  background-size: 920px;
+  border-radius:4px;
+  border: 1px  solid #000000;
+  color: white;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  margin:10px auto;
+}
+
+.form-group{
+  position: relative;
+  margin-bottom:15px;
+}
+.form-control{
+  width:100%;
+  height:50px;
+  border:none;
+  padding:5px 7px 5px 15px;
+  background:#fff;
+  color:#666;
+  border:2px solid #000000;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+.form-control:focus, .form-control:focus + .fa{
+  border-color:#000000;
+  color:#000000;
+}
+.form-group .fa{
+  position: absolute;
+  right:15px;
+  top:17px;
+  color:#999;
+}
+.log-status.wrong-entry {
+  -webkit-animation: wrong-log 0.3s;
+  -moz-animation: wrong-log 0.3s;
+  -ms-animation: wrong-log 0.3s;
+  animation: wrong-log 0.3s;
+}
+.log-status.wrong-entry .form-control, .wrong-entry .form-control + .fa {
+  border-color: #ed1c24;
+  color: #ed1c24;
+}
+@keyframes wrong-log {
+  0% { left: 0px;}
+  20% {left: 15px;}
+  40% {left: -15px;}
+  60% {left: 15px;}
+  80% {left: -15px;}
+  100% {left: 0px;}
+}
+@-ms-keyframes wrong-log {
+  0% { left: 0px;}
+  20% {left: 15px;}
+  40% {left: -15px;}
+  60% {left: 15px;}
+  80% {left: -15px;}
+  100% {left: 0px;}
+}
+@-moz-keyframes wrong-log {
+  0% { left: 0px;}
+  20% {left: 15px;}
+  40% {left: -15px;}
+  60% {left: 15px;}
+  80% {left: -15px;}
+  100% {left: 0px;}
+}
+@-webkit-keyframes wrong-log {
+  0% { left: 0px;}
+  20% {left: 15px;}
+  40% {left: -15px;}
+  60% {left: 15px;}
+  80% {left: -15px;}
+  100% {left: 0px;}
+}
+.log-btn{
+  background:url("../img/boton.jpg");
+  display:inline-block;
+  width:100%;
+  font-size:20px;
+  height:50px;
+  color:#000000;
+  text-decoration:none;
+  border: 1px  solid #000000;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+.out-btn{
+  background:#FF0000;
+  display:inline-block;
+  width:100%;
+  font-size:16px;
+  height:40px;
+  width: 120px;
+  color:#fff;
+  text-decoration:none;
+  border:none;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+.sign-btn{
+  background:url("../img/boton.jpg");
+  display:inline-block;
+  width:100%;
+  font-size:20px;
+  height:50px;
+  color:#000000;
+  text-decoration:none;
+  border: 1px  solid #000000;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+
+.alert{
+  display:none;
+  font-size:12px;
+  color:#f00;
+  float:left;
+}
+
+#contactos {
+    line-height:30px;
+    width:40%;
+    float:right;
+    padding:5px;        
+}
+#contactMap {
+  position: fixed;
+  float:left;
+  padding:75px;    
+}
+#googleMap{
+  display: inline-block;
+  width:600px;
+  height:500px;
+  position: absolute;
+}
+#panel_ruta{
+  position: absolute;
+  background: grey;
+  height: 550px;
+  width: 250px;
+  display: none;
+  overflow-y: scroll;
+}
+.log-error{
+  text-align: center;
+  color: red;
+}
+

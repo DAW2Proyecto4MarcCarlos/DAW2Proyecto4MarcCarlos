@@ -1,0 +1,6 @@
+USUARIOS/CONTASEÑAS:
+93458.joan23@fje.edu---qwe123
+10000734.joan23@fje.edu---qwe123
+
+REPOSITORIO:
+https://github.com/DAW2Proyecto4MarcCarlos/DAW2Proyecto4MarcCarlos.git
